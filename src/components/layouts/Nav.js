@@ -13,7 +13,7 @@ export function Nav() {
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="container">
         <div className="navbar-brand">
-          <Link className="navbar-item" to="/">
+          <Link className="navbar-item pr-6" to="/">
             <StaticImage
               src="../../images/icon.png"
               alt="Logo"
@@ -34,7 +34,14 @@ export function Nav() {
         </div>
 
         <div className={"navbar-menu " + (navIsOpened ? "is-active" : "")}>
-          <div className="navbar-start"></div>
+          <div className="navbar-start">
+            <Link className="navbar-item pr-6" to="/">
+              <span className="title is-uppercase">Accueil</span>
+            </Link>
+            <Link className="navbar-item pr-6" to="/posters">
+              <span className="title is-uppercase">Nos affiches</span>
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
