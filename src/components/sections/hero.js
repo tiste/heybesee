@@ -1,4 +1,5 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 export function HeroSection() {
   return (
@@ -6,8 +7,8 @@ export function HeroSection() {
       <section className="hero">
         <div className="hero-body">
           <div className="container content">
-            <div className="columns is-vcentered has-text-centered">
-              <div className="column is-three-fifths is-offset-one-fifth">
+            <div className="columns is-vcentered">
+              <div className="column is-7">
                 <h1 className="title is-1">Hey Be See</h1>
 
                 <div className="has-text-justified">
@@ -16,7 +17,28 @@ export function HeroSection() {
                     description. Par contre, ils font du rock, et ils le font
                     bien.
                   </p>
+
+                  <a
+                    href="https://www.facebook.com/heybesee"
+                    className="button is-black is-medium is-uppercase mr-3"
+                  >
+                    Facebook
+                  </a>
+
+                  <a
+                    href="https://www.youtube.com/channel/UCtur_ByMThF6vJMBf20sgeA"
+                    className="button is-black is-medium is-uppercase mr-3"
+                  >
+                    YouTube
+                  </a>
                 </div>
+              </div>
+
+              <div className="column has-text-centered">
+                <StaticImage
+                  src="../../images/last-show.png"
+                  alt="Dernier concert"
+                />
               </div>
             </div>
           </div>

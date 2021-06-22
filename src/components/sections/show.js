@@ -10,7 +10,7 @@ export function ShowSection() {
 
       <div className="columns">
         <div className="column has-text-centered">
-          <StaticImage src="../../images/last-show.png" alt="Dernier concert" />
+          <StaticImage src="../../images/last-pic.JPG" alt="Dernier concert" />
         </div>
       </div>
     </section>
