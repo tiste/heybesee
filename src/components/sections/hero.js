@@ -36,7 +36,7 @@ export function HeroSection() {
 
               <div className="column has-text-centered">
                 <StaticImage
-                  src="../../images/last-show.png"
+                  src="../../images/last-show.jpg"
                   alt="Dernier concert"
                 />
               </div>
