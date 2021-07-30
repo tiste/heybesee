@@ -6,10 +6,11 @@ module.exports = {
     siteUrl: "https://heybesee.fr",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    "gatsby-plugin-react-helmet",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -23,14 +24,12 @@ module.exports = {
       },
     },
     "gatsby-plugin-sitemap",
-    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: `${__dirname}/src/images`,
       },
-      __key: "images",
     },
   ],
 };

@@ -35,5 +35,10 @@
   "devDependencies": {
     "postcss": "8.3.5",
     "prettier": "2.3.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiste/heybesee"
   }
 }
