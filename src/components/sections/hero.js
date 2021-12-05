@@ -20,14 +20,21 @@ export function HeroSection() {
 
                   <a
                     href="https://www.facebook.com/heybesee"
-                    className="button is-black is-medium is-uppercase mr-3"
+                    className="button is-black is-medium is-uppercase mx-2 my-2"
                   >
                     Facebook
                   </a>
 
                   <a
+                    href="https://heybesee.bandcamp.com"
+                    className="button is-black is-medium is-uppercase mx-2 my-2"
+                  >
+                    Bandcamp
+                  </a>
+
+                  <a
                     href="https://www.youtube.com/channel/UCtur_ByMThF6vJMBf20sgeA"
-                    className="button is-black is-medium is-uppercase mr-3"
+                    className="button is-black is-medium is-uppercase mx-2 my-2"
                   >
                     YouTube
                   </a>
