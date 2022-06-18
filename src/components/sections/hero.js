@@ -1,5 +1,5 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
+import { NextShow } from "../NextShow";
 
 export function HeroSection() {
   return (
@@ -42,10 +42,7 @@ export function HeroSection() {
               </div>
 
               <div className="column has-text-centered">
-                <StaticImage
-                  src="../../images/last-show.png"
-                  alt="Dernier concert"
-                />
+                <NextShow />
               </div>
             </div>
           </div>
