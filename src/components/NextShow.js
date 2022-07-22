@@ -6,7 +6,7 @@ export function NextShow() {
   const staticQuery = graphql`
     {
       allFile(
-        limit: 2
+        limit: 1
         filter: { relativePath: { glob: "posters/*" } }
         sort: { fields: name, order: DESC }
       ) {
@@ -37,7 +37,7 @@ export function NextShow() {
 function NextShowComponent({ data }) {
   return (
     <GatsbyImage
-      image={data.allFile.edges[1].node.childImageSharp.gatsbyImageData}
+      image={data.allFile.edges[0].node.childImageSharp.gatsbyImageData}
       alt="Prochain concert"
     />
   );
