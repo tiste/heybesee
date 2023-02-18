@@ -39,6 +39,20 @@ export function HeroSection() {
                     YouTube
                   </a>
                 </div>
+
+                <hr />
+                <p>
+                  Contactez-nous par{" "}
+                  <strong>
+                    <a href="tel:+33634254534">téléphone</a>
+                  </strong>{" "}
+                  ou par{" "}
+                  <strong>
+                    <a href="mailto:baptiste.lecocq@gmail.com">mail</a>
+                  </strong>{" "}
+                  pour toute demande de soirée, concert, ou autres fêtes où le
+                  rock est au rendez-vous !
+                </p>
               </div>
 
               <div className="column has-text-centered">
