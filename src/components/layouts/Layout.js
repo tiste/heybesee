@@ -27,6 +27,12 @@ export function Layout(props) {
             "name": "Hey Be See"
           }
         `}</script>
+
+        <script
+          defer
+          data-domain="heybesee.fr"
+          src="https://plausible.io/js/script.js"
+        ></script>
       </Helmet>
       <main className={props.cssClasses}>{props.children}</main>
     </>
